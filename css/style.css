@@ -1,0 +1,58 @@
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(255, 247, 236);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    text-align:right;
+    padding: 12px;
+    color: rgb(228, 137, 53);
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .links{
+    text-align: right;
+    float: right;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(233, 199, 199);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #be7828;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 50px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+
+
+.carousel-container{
+  border: 1px solid rgb(221, 103, 25);
+
+  height: 50px;
+  padding: 150%;
+  
+}
+.ul{
+  color: #be7828;
+
+}
+.footer{
+  background-color: #be7828;
+  
+}
+
